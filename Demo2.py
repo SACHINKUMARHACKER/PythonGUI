@@ -1,4 +1,8 @@
 #!/usr/bin/env python
+
+def getting_started():
+    print('This is alright')
+
 from Tkinter import *
 root = None
 def buttonPushed():
@@ -14,7 +18,7 @@ def main():
     myButton.pack()
     root.mainloop()
 
-   
+
 main()
 
 
